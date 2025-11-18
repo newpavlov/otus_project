@@ -1,3 +1,5 @@
+use otus_project::add;
+
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, world! {}", add(2, 2));
 }
